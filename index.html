@@ -12,24 +12,27 @@
 <body>
     <div class="container">
         <header role="banner">  
-            <h1>Main Title</h1>
-            <nav role="navigation">
-
-            </nav>      
+            <h1>Songs</h1>
         </header>
-
-        <h1>Songs</h1>
 
         <div class="row">
             <div class="span2">
-
                 <h2>Blisters</h2>
             </div>
             <div class="span2">
-                <span class="label label-success">Nailed</span>
+                <span class="label label-success">Sounding good</span>
             </div>
             <div class="span4">
-                No audio available - send some!
+                <audio id="audio" controls preload="metadata">
+                    <source src="tunes/blisters.mp3" type="audio/mp3">
+
+                    <object type="application/x-shockwave-flash" data="player.swf" height="24" width="320">
+                        <param name="movie" value="player.swf" />
+                        <param name="flashvars" value="file=tunes/blisters.mp3" />
+                    </object>
+
+                    <a href="tunes/blisters.mp3">Download MP3 audio</a>
+                </audio>
             </div>
             <div class="span4">
                 No structure available - send some!
@@ -40,7 +43,7 @@
                 <h2>Trouble</h2>
             </div>
             <div class="span2"> 
-                <span class="label label-warning">Sounded<br/>good<br/>in<br/>rehearsal</span>
+                <span class="label label-success">Sounding<br/>good</span>
             </div>
             <div class="span4">
                 <audio id="audio" controls preload="metadata">
@@ -63,19 +66,19 @@
                 <h2>On A Ledge</h2>
             </div>
             <div class="span2">
-                <span class="label label-warning">In progress</span>
+                <span class="label label-success">Sounding<br/>good</span>
             </div>
 
             <div class="span4">
                 <audio id="audio" controls preload="metadata">
-                    <source src="tunes/on-a-ledge-band.mp3" type="audio/mp3">
+                    <source src="tunes/on-a-ledge.mp3" type="audio/mp3">
 
                     <object type="application/x-shockwave-flash" data="player.swf" height="24" width="320">
                         <param name="movie" value="player.swf" />
-                        <param name="flashvars" value="file=tunes/on-a-ledge-band.mp3" />
+                        <param name="flashvars" value="file=tunes/on-a-ledge.mp3" />
                     </object>
 
-                    <a href="tunes/trouble-band.mp3">Download MP3 audio</a>
+                    <a href="tunes/on-a-ledge.mp3">Download MP3 audio</a>
                 </audio>
             </div>
             <div class="span4">
